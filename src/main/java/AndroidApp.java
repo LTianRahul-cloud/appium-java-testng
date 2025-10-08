@@ -62,7 +62,7 @@ public class AndroidApp {
             //notification will be visible
             MobileElement notification = (MobileElement) driver.findElementById("com.lambdatest.proverbial:id/notification");
             notification.click();
-            Thread.sleep(2000);
+            Thread.sleep(5000);
 
             //Opens the geolocation page
             MobileElement geo = (MobileElement) driver.findElementById("com.lambdatest.proverbial:id/geoLocation");
@@ -97,3 +97,4 @@ public class AndroidApp {
 
     }
 }
+
